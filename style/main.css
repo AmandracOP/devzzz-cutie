@@ -3,11 +3,11 @@ html {
   }
   
   body {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-    background: linear-gradient(to right, #ffb3c1, #ffb6d1, #d7f1ff, #e0f7fa); /* Lighter pastel colors */
+    background: linear-gradient(to right, #ffb6c1, #ffdab9, #e6b0aa, #d8bfd8); /* Romantic color palette with pink and red hues */
     background-size: 400% 400%;
-    animation: gradientAnimation 15s ease infinite; /* Slower animation for a more relaxed feel */
+    animation: gradientAnimation 15s ease infinite;
 }
 
 /* Smooth animation for the gradient */
@@ -124,7 +124,7 @@ html {
 .six .hat {
     position: absolute;
     left: 52%; /* Center horizontally within .six */
-    top: -43%; /* Adjust this for vertical positioning, fine-tune as needed */
+    top: -38%; /* Adjust this for vertical positioning, fine-tune as needed */
     transform: translateX(-50%); /* Perfect horizontal centering */
     width: 80px; /* Width of the hat */
     z-index: 2; /* Ensure the hat is on top of the image */
